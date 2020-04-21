@@ -6,7 +6,13 @@ import Aux from '../../../hoc/Aux';
 const spinner = (props) => {
   return (
     <Aux>
-      <div className={[classes.Spinner, classes[props.size]].join(' ')}>
+      <div
+        className={[
+          classes.Spinner,
+          classes[props.size],
+          classes[props.color],
+        ].join(' ')}
+      >
         Loading...
       </div>
     </Aux>

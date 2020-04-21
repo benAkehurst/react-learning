@@ -1,5 +1,5 @@
 .Spinner {
-  color: #b98a51;
+  color: #fff;
   text-indent: -9999em;
   overflow: hidden;
   width: 1em;
@@ -24,6 +24,22 @@
 
 .large {
   font-size: 90px;
+}
+
+.success {
+  color: #3dd330;
+}
+
+.error {
+  color: #dd2f2f;
+}
+
+.black {
+  color: black;
+}
+
+.basic {
+  color: #aaaaaa;
 }
 
 @-webkit-keyframes load6 {
