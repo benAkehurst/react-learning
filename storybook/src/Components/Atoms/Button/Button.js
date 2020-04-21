@@ -27,7 +27,6 @@ const button = (props) => {
           classes[props.buttonType],
         ].join(' ')}
       >
-        {/* <div className={classes.TextWrapper}>{props.children}</div> */}
         <div>
           {props.children.length > 15
             ? props.children.substring(0, 15 - 3) + '...'
