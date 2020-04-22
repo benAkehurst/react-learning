@@ -6,7 +6,11 @@ import Aux from '../../../hoc/Aux';
 const image = (props) => {
   return (
     <Aux>
-      <div className={classes.Image}>Image</div>
+      <img
+        className={classes.Image}
+        src={props.imageLink}
+        alt={props.altText}
+      />
     </Aux>
   );
 };
