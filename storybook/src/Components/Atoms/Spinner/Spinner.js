@@ -3,6 +3,12 @@ import classes from './Spinner.module.css';
 
 import Aux from '../../../hoc/Aux';
 
+/**
+ * Props:
+ * size - 'small' | 'medium' | 'large'
+ * color - 'success' | 'error' | 'black' | 'basic'
+ */
+
 const spinner = (props) => {
   return (
     <Aux>
