@@ -3,6 +3,12 @@ import classes from './Image.module.css';
 
 import Aux from '../../../hoc/Aux';
 
+/**
+ * Props:
+ * imageLink - a url for the image
+ * altText - alt text for the image
+ */
+
 const image = (props) => {
   return (
     <Aux>
