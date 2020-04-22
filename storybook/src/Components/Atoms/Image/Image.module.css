@@ -1,3 +1,11 @@
 .Image {
   font-family: 'Raleway', sans-serif;
 }
+
+.rounded {
+  border-radius: 25%;
+}
+
+.circle {
+  border-radius: 50%;
+}

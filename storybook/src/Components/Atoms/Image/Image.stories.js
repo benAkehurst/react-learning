@@ -12,6 +12,22 @@ export const Baisc = () => (
   />
 );
 
+export const Rounded = () => (
+  <Image
+    imageLink={'https://via.placeholder.com/150'}
+    altText={'placeholder text'}
+    corners={'rounded'}
+  />
+);
+
+export const Circle = () => (
+  <Image
+    imageLink={'https://via.placeholder.com/150'}
+    altText={'placeholder text'}
+    corners={'circle'}
+  />
+);
+
 export const LargeImage = () => (
   <Image
     imageLink={

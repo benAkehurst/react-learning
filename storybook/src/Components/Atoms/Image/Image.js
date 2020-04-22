@@ -7,13 +7,14 @@ import Aux from '../../../hoc/Aux';
  * Props:
  * imageLink - a url for the image
  * altText - alt text for the image
+ * corners - 'rounded' | 'circle'
  */
 
 const image = (props) => {
   return (
     <Aux>
       <img
-        className={classes.Image}
+        className={[classes.Image, classes[props.corners]].join(' ')}
         src={props.imageLink}
         alt={props.altText}
       />
