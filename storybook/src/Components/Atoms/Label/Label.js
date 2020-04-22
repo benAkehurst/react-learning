@@ -6,7 +6,7 @@ import Aux from '../../../hoc/Aux';
 const label = (props) => {
   return (
     <Aux>
-      <div className={classes.Label}>Label</div>
+      <label className={classes.Label}>Label</label>
     </Aux>
   );
 };
