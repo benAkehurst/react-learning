@@ -9,10 +9,14 @@ describe('<Label />', () => {
   let wrapper;
 
   beforeEach(() => {
-    wrapper = shallow(<Label>Label</Label>);
+    wrapper = shallow(<Label for={'test'}>Basic Label</Label>);
   });
 
   it('should render the compoent', () => {
     expect(wrapper).toBeTruthy();
+  });
+
+  it('should have a for prop', () => {
+    expect(wrapper.props().children.props.for).toBeTruthy();
   });
 });

@@ -5,4 +5,4 @@ export default {
   title: 'Atoms / Label',
 };
 
-export const Baisc = () => <Label />;
+export const Baisc = () => <Label>Basic Label</Label>;
