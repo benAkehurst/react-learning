@@ -5,4 +5,4 @@ export default {
   title: 'Molecules / Search Input',
 };
 
-export const Baisc = () => <SearchInput />;
+export const Baisc = () => <SearchInput hasLabel={true} />;
