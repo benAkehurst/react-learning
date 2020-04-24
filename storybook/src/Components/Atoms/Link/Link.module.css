@@ -1,2 +1,8 @@
 .Link {
 }
+
+.noStyle {
+  text-decoration: none;
+  color: black;
+  cursor: auto;
+}

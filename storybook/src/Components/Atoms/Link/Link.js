@@ -6,7 +6,12 @@ import Aux from '../../../hoc/Aux';
 const link = (props) => {
   return (
     <Aux>
-      <div className={classes.Link}>Link</div>
+      <a
+        className={[classes.Link, classes[props.noStyles]].join(' ')}
+        href={props.link}
+      >
+        {props.linkText}
+      </a>
     </Aux>
   );
 };
