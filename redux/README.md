@@ -5,7 +5,7 @@ This repo will act as a place to learn and practice Redux
 ## Components/Packages Used
 
 [x] - [Redux](https://redux.js.org/introduction/getting-started)
-[x] - [Redux Tutorial](https://www.freecodecamp.org/news/how-to-use-redux-in-reactjs-with-real-life-examples-687ab4441b85/)
+[x] - [Redux Udemy Module](https://yoobic.udemy.com/course/react-the-complete-guide-incl-redux/learn/lecture/8211830#overview)
 
 ## Scripts
 
