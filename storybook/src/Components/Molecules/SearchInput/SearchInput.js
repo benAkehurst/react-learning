@@ -12,11 +12,20 @@ class SearchInput extends Component {
       <Aux>
         <div className={classes.SearchInputWrapper}>
           {this.props.hasLabel ? (
-            <Label for={'search'}>Seach Here</Label>
+            <div className={classes.LabelWrapper}>
+              <Label htmlFor={'search'}>Seach Here</Label>
+            </div>
           ) : null}
           <div className={classes.InputElementsWrapper}>
             <Input name={'search'}></Input>
-            <Button>Search</Button>
+            <Button
+              size={'medium'}
+              corners={'rounded'}
+              shadow={'shadow'}
+              buttonType={'success'}
+            >
+              Search
+            </Button>
           </div>
         </div>
       </Aux>
