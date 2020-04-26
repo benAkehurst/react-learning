@@ -11,7 +11,7 @@ import Aux from '../../../hoc/Aux';
 const label = (props) => {
   return (
     <Aux>
-      <label className={classes.Label} for={props.for}>
+      <label className={classes.Label} htmlFor={props.for}>
         {props.children}
       </label>
     </Aux>

@@ -13,7 +13,7 @@ class SearchInput extends Component {
         <div className={classes.SearchInputWrapper}>
           {this.props.hasLabel ? (
             <div className={classes.LabelWrapper}>
-              <Label htmlFor={'search'}>Seach Here</Label>
+              <Label for={'search'}>Seach Here</Label>
             </div>
           ) : null}
           <div className={classes.InputElementsWrapper}>
