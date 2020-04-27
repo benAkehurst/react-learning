@@ -1,10 +1,11 @@
 # Storybook
 
-This repo will act as a store for Components that I have built, and as a place to hack and learn about Storybook.
+This repo will act as a design system of Components that I have built while learning how to use React.js, and as a place to hack and learn about Storybook.
 
 ## Components/Packages Used
 
-[x] - [Storybook](https://storybook.js.org/docs/guides/guide-react/)
+- [Create React App](https://github.com/facebook/create-react-app)
+- [Storybook](https://storybook.js.org/docs/guides/guide-react/)
 
 ## Components
 
@@ -12,25 +13,28 @@ This repo will act as a store for Components that I have built, and as a place t
 
 - Button
 - Image
-- Loader
 - Input
 - Label
+- Link
+- Spinner
 
 2. Molecules
 
 - Search Input
 - Avatar
+- Card
 
 3. Organisms
 
 - Header Bar
+- Card Grid
+- Side Menu
 
-## Scripts
+### Installation and Use
 
-### `npm start`
+1. Clone the repo - `https://github.com/benAkehurst/react-learning.git`
+2. `cd storybook`
+3. `npm i`
+4. `npm run storybook`
 
-Runs the app in the development mode.
-
-### `npm run storybook`
-
-Runs the Storybook Server
+This will launch the storybook instance. Happy hacking.
