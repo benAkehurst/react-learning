@@ -1,8 +1,5 @@
-.Link {
-}
-
-.noStyle {
+.noStyles {
   text-decoration: none;
   color: black;
-  cursor: auto;
+  cursor: pointer;
 }

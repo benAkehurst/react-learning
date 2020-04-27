@@ -2,17 +2,14 @@ import React from 'react';
 import Link from './Link';
 
 export default {
+  component: Link,
   title: 'Atoms / Link',
 };
 
-export const Baisc = () => (
-  <Link link={'https://www.bbc.co.uk/news'} linkText={'BBC News'} />
-);
+const linkData = {
+  link: 'https://www.bbc.co.uk/news',
+  linkText: 'BBC News',
+};
 
-export const NoStyles = () => (
-  <Link
-    noStyles={true}
-    link={'https://www.bbc.co.uk/news'}
-    linkText={'BBC News'}
-  />
-);
+export const Baisc = () => <Link {...linkData} />;
+export const NoStyles = () => <Link {...linkData} noStyles={'noStyles'} />;
