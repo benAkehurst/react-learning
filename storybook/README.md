@@ -7,6 +7,10 @@ This repo will act as a design system of Components that I have built while lear
 - [Create React App](https://github.com/facebook/create-react-app)
 - [Storybook](https://storybook.js.org/docs/guides/guide-react/)
 
+## Inspiration
+
+- [Clarity Design System](https://clarity.design/storybook/core/?path=/docs/welcome-clarity--core)
+
 ## Components
 
 1. Atoms
