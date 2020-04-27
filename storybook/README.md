@@ -42,3 +42,8 @@ This repo will act as a design system of Components that I have built while lear
 4. `npm run storybook`
 
 This will launch the storybook instance. Happy hacking.
+
+## Tests
+
+Components have tests run using enzyme and jest. These can be run using the command:
+`npm run test`
