@@ -2,6 +2,7 @@ import React from 'react';
 import Input from './Input';
 
 export default {
+  component: Input,
   title: 'Atoms / Input',
 };
 
@@ -48,7 +49,6 @@ function inputChangedHandler(event, inputIdentifier) {
   for (let inputIdentifier in updatedOrderFrom) {
     formIsValid = updatedOrderFrom[inputIdentifier].valid && formIsValid;
   }
-  console.log(updatedOrderFrom, formIsValid);
 }
 
 export const Name = () => (
