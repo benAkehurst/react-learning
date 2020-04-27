@@ -17,6 +17,6 @@ describe('<Label />', () => {
   });
 
   it('should have a for prop', () => {
-    expect(wrapper.props().children.props.for).toBeTruthy();
+    expect(wrapper.props().children.props.htmlFor).toBeTruthy();
   });
 });

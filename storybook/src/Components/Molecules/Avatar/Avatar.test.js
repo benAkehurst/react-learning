@@ -9,10 +9,14 @@ describe('<Avatar />', () => {
   let wrapper;
 
   beforeEach(() => {
-    wrapper = shallow(<Avatar />);
+    wrapper = shallow(<Avatar size={'small'} />);
   });
 
   it('should render the compoent', () => {
     expect(wrapper).toBeTruthy();
+  });
+
+  it('should have a small size prop', () => {
+    expect(wrapper.props().children.props.className).toEqual('Avatar small');
   });
 });
