@@ -12,11 +12,8 @@ const imageData = {
 };
 
 export const Baisc = () => <Image {...imageData} />;
-
 export const Rounded = () => <Image {...imageData} corners={'rounded'} />;
-
 export const Circle = () => <Image {...imageData} corners={'circle'} />;
-
 export const LargeImage = () => (
   <Image
     imageLink={
